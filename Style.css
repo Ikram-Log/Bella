@@ -1,0 +1,109 @@
+header {
+        width: 100%;
+        border: 1px solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+}
+.ListNav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.banier {
+    background: url(img/download.png);
+    width: 100%;
+    width: 100%;
+    background-size: cover;
+   height: 590px;
+   color:  black;
+   text-align: center;
+   font-size: xx-large;
+    margin:auto;
+    font-family: Poppins;
+}
+.banier h4{
+    margin: 0;
+}
+.product {
+    width: 100%;
+ }
+ .product h2{
+    text-align: center;
+ }
+
+ .pizzaDivParents {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    }
+ .pizza {
+    width:30%;
+    border :2px Solid orangered;
+    }
+.pizza img {
+    width: 100%;
+}
+    .pizza button {
+width: 100%;
+background-color: orangered;
+width: 100px;
+border-radius: 30px;
+margin: auto;
+margin-right: 10px;
+    margin-bottom: 10px;
+    float: right;
+    }
+    .product h2{
+        text-align: center;
+     }
+    
+     .BurgerDivParents{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        }
+     .Burger {
+        width:30%;
+        border :2px Solid orangered;
+        }
+    .img img {
+        width: 100%;
+    }
+      .Burger button {
+    width: 100%;
+    background-color: orangered;
+    width: 100px;
+    border-radius: 30px;
+    margin: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: right;
+        }
+        .SaladesDivParents{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            }
+         .Salades {
+            width: 30%;
+            border: 2px Solid orangered;
+            }
+        .salade img {
+            width: 100%;
+        }
+        .Salades button {
+            width: 100%;
+            background-color: orangered;
+            width: 100px;
+            border-radius: 30px;
+            margin: auto;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            float: right;
+            }
+            hr {
+                width: 70%;
+                margin-top: 50px
+            }
